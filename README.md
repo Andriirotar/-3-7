@@ -2,9 +2,9 @@
 int main() {
     const int n = 10; // Вказати розмір масиву
     double arr[n];
-    std::cout << "Введіть " << n << " elements:\n";
+    std::cout << "Введіть " << n << " елементів:\n";
     for (int i = 0; i < n; ++i) {
-        std::cout << "Елементt " << i + 1 << ": ";
+        std::cout << "Елемент " << i + 1 << ": ";
         std::cin >> arr[i];
     }
     double maxElement = arr[0];
